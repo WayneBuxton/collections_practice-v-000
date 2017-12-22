@@ -44,6 +44,7 @@ def add_s(array)
       "feet"
     else
       word + "s"
+    end
     #binding.pry
   end
 end
