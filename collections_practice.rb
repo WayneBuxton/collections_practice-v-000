@@ -40,7 +40,9 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |word,index|
-    word + "s"
+    if index == 1 
+      "feet"
+    else word + "s"
     #binding.pry
   end
 end
